@@ -170,7 +170,7 @@ L.UtfGrid = (L.Layer || L.Class).extend({
 			var idx = this._utfDecode(data.grid[gridY].charCodeAt(gridX)),
 				key = data.keys[idx];
 
-			if (data.data.hasOwnProperty(key)) {,
+			if (data.data.hasOwnProperty(key)) {
 				result = data.data[key];
 			}
 		}
